@@ -20,7 +20,7 @@ const RightSection = ({
          </div>
       </div>  
       <div className='col-lg-6 col-12'>
-           <img src={imageURL}
+           <img src={imageURL} alt='right-section'
            style={{width:"50%"}}
            />
       </div>

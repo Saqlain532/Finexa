@@ -11,10 +11,10 @@ const Universe = () => {
       </div>
       <div className='row d-flex '>
        <div className='col-lg-4 col-6 text-center'>
-         <a href=""
+         <a href="#/"
             style={{textDecoration:"none"}}
          >
-          <img src="media/images/finexafund.png"
+          <img src="media/images/finexafund.png" alt='finexfund'
             style={{width:"50%"}}
           />
           <p className='text-muted text-center py-3 lh-sm'
@@ -23,11 +23,11 @@ const Universe = () => {
          </a>
         </div>
       <div className='col-lg-4 col-6 text-center'>
-         <a href=""
+         <a href="#/"
             style={{textDecoration:"none"}}
          >
           <img src="media/images/sensibullLogo.svg"
-            style={{width:"50%"}}
+            style={{width:"50%"}} alt='sensibull-svg'
           />
           <p className='text-muted text-center py-3 lh-sm'
              style={{fontSize:"13px"}}
@@ -35,11 +35,11 @@ const Universe = () => {
          </a>
         </div>
         <div className='col-lg-4 col-6 text-center'>
-         <a href=""
+         <a href="#/"
             style={{textDecoration:"none"}}
          >
           <img src="media/images/tijori.svg"
-            style={{width:"50%"}}
+            style={{width:"50%"}} alt='tijori svg'
           />
           <p className='text-muted text-center py-3 lh-sm'
              style={{fontSize:"13px"}}
@@ -51,11 +51,11 @@ const Universe = () => {
      </div>
      <div className='row d-flex mt-3 '>
        <div className='col-lg-4 col-6 text-center'>
-         <a href=""
+         <a href="#/"
             style={{textDecoration:"none"}}
          >
           <img src="media/images/streakLogo.png"
-            style={{width:"50%"}}
+            style={{width:"50%"}} alt='streakLogo'
           />
           <p className='text-muted text-center py-3 lh-sm'
              style={{fontSize:"13px"}}
@@ -63,11 +63,11 @@ const Universe = () => {
          </a>
         </div>
       <div className='col-lg-4 col-6 text-center'>
-         <a href=""
-            style={{textDecoration:"none"}}
+         <a href="#/"
+            style={{textDecoration:"none"}} 
          >
           <img src="media/images/smallcaseLogo.png"
-            style={{width:"50%"}}
+            style={{width:"50%"}} alt='samllcaseLogo'
           />
           <p className='text-muted text-center py-3 lh-sm'
              style={{fontSize:"13px"}}
@@ -75,11 +75,11 @@ const Universe = () => {
          </a>
         </div>
         <div className='col-lg-4 col-6 text-center'>
-         <a href=""
+         <a href="#/"
             style={{textDecoration:"none"}}
          >
           <img src="media/images/dittoLogo.png"
-            style={{width:"50%"}}
+            style={{width:"50%"}} alt='dittologo'
           />
           <p className='text-muted text-center py-3 lh-sm'
              style={{fontSize:"13px"}}

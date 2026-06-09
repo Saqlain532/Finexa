@@ -45,14 +45,14 @@ const Footer = () => {
         
         <div className='text-muted d-flex flex-column gap-3 border rounded-4 p-3 h-100 bg-white'>
           <h3 className='fs-5 text-muted fw-bold mb-0 rounded-pill border text-center'>Account</h3>
-          <a href="#" className='ftr-text text-decoration-none'>Minor demat account</a>
-          <a href="#" className='ftr-text text-decoration-none'>Open demat account</a>
-          <a href="#" className='ftr-text text-decoration-none'>NRI demat account</a>
-          <a href="#" className='ftr-text text-decoration-none'>HUF demat account</a>
-          <a href="#" className='ftr-text text-decoration-none'>Commodity</a>
-          <a href="#" className='ftr-text text-decoration-none'>Dematerialisation</a>
-          <a href="#" className='ftr-text text-decoration-none'>Fund transfer</a>
-          <a href="#" className='ftr-text text-decoration-none'>MTF</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Minor demat account</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Open demat account</a>
+          <a href="#/" className='ftr-text text-decoration-none'>NRI demat account</a>
+          <a href="#/" className='ftr-text text-decoration-none'>HUF demat account</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Commodity</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Dematerialisation</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Fund transfer</a>
+          <a href="#/" className='ftr-text text-decoration-none'>MTF</a>
         </div>
       </div>
 
@@ -60,28 +60,28 @@ const Footer = () => {
       <div className='col-lg-3 col-sm-6'>
         <div className='text-muted d-flex flex-column gap-3 border rounded-4 p-3 h-100 bg-white'>
           <h3 className='fs-5 text-muted fw-bold mb-0 rounded-pill border text-center'>Support</h3>
-          <a href="#" className='ftr-text text-decoration-none'>Contact us</a>
-          <a href="#" className='ftr-text text-decoration-none'>Support portal</a>
-          <a href="#" className='ftr-text text-decoration-none'>How to file a complaint?</a>
-          <a href="#" className='ftr-text text-decoration-none'>Status of your complaints</a>
-          <a href="#" className='ftr-text text-decoration-none'>Bulletin</a>
-          <a href="#" className='ftr-text text-decoration-none'>Circular</a>
-          <a href="#" className='ftr-text text-decoration-none'>F-Connect blog</a>
-          <a href="#" className='ftr-text text-decoration-none'>Downloads</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Contact us</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Support portal</a>
+          <a href="#/" className='ftr-text text-decoration-none'>How to file a complaint?</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Status of your complaints</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Bulletin</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Circular</a>
+          <a href="#/" className='ftr-text text-decoration-none'>F-Connect blog</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Downloads</a>
         </div>
       </div>
 
       <div className='col-lg-3 col-sm-6'>
         <div className='text-muted d-flex flex-column gap-3 border rounded-4 p-3 h-100 bg-white'>
           <h3 className='fs-5 text-muted fw-bold mb-0 rounded-pill border text-center'>Company</h3>
-          <a href="#" className='ftr-text text-decoration-none'>About</a>
-          <a href="#" className='ftr-text text-decoration-none'>Philosophy</a>
-          <a href="#" className='ftr-text text-decoration-none'>Press & media</a>
-          <a href="#" className='ftr-text text-decoration-none'>Careers</a>
-          <a href="#" className='ftr-text text-decoration-none'>Finexa Cares (CSR)</a>
-          <a href="#" className='ftr-text text-decoration-none'>Finexa.tech</a>
-          <a href="#" className='ftr-text text-decoration-none'>Open source</a>
-          <a href="#" className='ftr-text text-decoration-none'>Referral program</a>
+          <a href="#/" className='ftr-text text-decoration-none'>About</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Philosophy</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Press & media</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Careers</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Finexa Cares (CSR)</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Finexa.tech</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Open source</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Referral program</a>
         </div>
       </div>
 
@@ -89,14 +89,14 @@ const Footer = () => {
       <div className='col-lg-3 col-sm-6'>
         <div className='text-muted d-flex flex-column gap-3 border rounded-4 p-3 h-100 bg-white'>
           <h3 className='fs-5 text-muted fw-bold mb-0 rounded-pill border text-center'>Quick links</h3>
-          <a href="#" className='ftr-text text-decoration-none'>Upcoming IPOs</a>
-          <a href="#" className='ftr-text text-decoration-none'>Brokerage charges</a>
-          <a href="#" className='ftr-text text-decoration-none'>Market holidays</a>
-          <a href="#" className='ftr-text text-decoration-none'>Economic calendar</a>
-          <a href="#" className='ftr-text text-decoration-none'>Calculators</a>
-          <a href="#" className='ftr-text text-decoration-none'>Markets</a>
-          <a href="#" className='ftr-text text-decoration-none'>Sectors</a>
-          <a href="#" className='ftr-text text-decoration-none'>Gift Nifty</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Upcoming IPOs</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Brokerage charges</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Market holidays</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Economic calendar</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Calculators</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Markets</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Sectors</a>
+          <a href="#/" className='ftr-text text-decoration-none'>Gift Nifty</a>
         </div>
       </div>
 
@@ -126,16 +126,16 @@ const Footer = () => {
 
       </div>
       <div className='d-flex flex-wrap gap-lg-3 gap-2 p-4 '>
-        <a className=' ftr-text' href="#">NSE</a>
-        <a className=' ftr-text'href="#">BSE</a>
-        <a className=' ftr-text'href="#">MCX</a>
-        <a className=' ftr-text'href="#">MSEI</a>
-        <a className=' ftr-text'href="#">Terms & conditions</a>
-        <a className=' ftr-text'href="#">Policies & procedures</a>
-        <a className=' ftr-text'href="#">Privacy policy</a>
-        <a className=' ftr-text'href="#">Disclosure</a>
-        <a className=' ftr-text'href="#">For investor's attention</a>
-        <a className=' ftr-text'href="#">Investor charter</a>
+        <a className=' ftr-text' href="#/">NSE</a>
+        <a className=' ftr-text'href="#/">BSE</a>
+        <a className=' ftr-text'href="#/">MCX</a>
+        <a className=' ftr-text'href="#/">MSEI</a>
+        <a className=' ftr-text'href="#/">Terms & conditions</a>
+        <a className=' ftr-text'href="#/">Policies & procedures</a>
+        <a className=' ftr-text'href="#/">Privacy policy</a>
+        <a className=' ftr-text'href="#/">Disclosure</a>
+        <a className=' ftr-text'href="#/">For investor's attention</a>
+        <a className=' ftr-text'href="#/">Investor charter</a>
       </div>
     </div>
   )

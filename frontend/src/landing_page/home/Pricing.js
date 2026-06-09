@@ -7,7 +7,7 @@ const Pricing = () => {
         <div className='col-lg-4 col-12 '>
           <h2 className='text-muted fw-bold mb-4'>Unbeatable pricing</h2>
           <p className='text-secondary '>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
-            <a href='#'
+            <a href='#/'
               style={{textDecoration:"none"}}
               > Try Kite demo&nbsp;
               <i class="fa-solid fa-arrow-right-long"></i>

@@ -101,7 +101,9 @@ app.use('/api/auth/orders', orderRouter);
 //     res.send(positionData);
 // });
 
-
+app.get('/',(req, res)=>{
+    res.status(200).json(message:"Server is running on port 8000");
+})
 
 startEODSettlement();
 const PORT= process.env.PORT || 8000;

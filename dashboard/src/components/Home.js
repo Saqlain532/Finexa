@@ -6,7 +6,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 const Home = () => {  
    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
   const [isLoading, setIsLoading] = useState(true);
 
   const navigate = useNavigate();
@@ -15,12 +15,8 @@ const Home = () => {
     const token = localStorage.getItem("accessToken");
 
     if (token) {
-      setIsAuthenticated(true);
-      
       if (location.pathname === '/signup') navigate('/');
-    } else {
-      setIsAuthenticated(false);
-      
+    } else { 
       if (location.pathname !== '/signup') navigate('/signup');
     }
 

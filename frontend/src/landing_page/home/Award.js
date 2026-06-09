@@ -5,7 +5,7 @@ const Award = () => {
     <div className='container mt-5 mb-5 p-4 p-lg-5 d-flex border shadow rounded'>
       <div className='row align-items-center '>
         <div className='col-12 col-lg-6 text-center mb-4 mb-lg-0'>
-          <img src='media/images/largestBroker.svg' alt='award image'
+          <img src='media/images/largestBroker.svg' alt='award-image'
                className='img-fluid'
           />
         </div>

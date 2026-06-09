@@ -5,15 +5,15 @@ const Stats = () => {
     <div className='container p-5 d-felx shadow border rounded'>
       <div className='row ' style={{marginTop:"5rem"}}>
         <div className=' col-12 col-lg-6 p-3 mb-5 '>
-            <img src='/media/images/ecosystem.png' alt='ecosystem image' style={{maxWidth:"90%"}} className='mt-2 img-fluid'/>
+            <img src='/media/images/ecosystem.png' alt='ecosystem-image' style={{maxWidth:"90%"}} className='mt-2 img-fluid'/>
              <div className='mt-2 d-flex justify-content-center  align-items-center gap-3'>
-                <a href='#'
+                <a href='#/'
                 style={{textDecoration:"none"}}
                
                 > Explore our products&nbsp;
                   <i class="fa-solid fa-arrow-right-long"></i>
                  </a>
-                  <a href='#'
+                  <a href='#/'
                   style={{textDecoration:"none"}}
                   > Try Kite demo&nbsp;
                   <i class="fa-solid fa-arrow-right-long"></i>

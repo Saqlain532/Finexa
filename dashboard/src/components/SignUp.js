@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+
 import api from '../api.js';
 
 const SignUp = () => {
   const [isLogin, setIsLogin] = useState(true);
-  const navigate = useNavigate();
   const [formData, setFormData] =useState({
     firstName:"",
     lastName:"",
@@ -43,7 +42,7 @@ const SignUp = () => {
 
         
         window.location.href = '/'; 
-        // navigate('/')
+        
       } else {
        
         setIsLogin(true);

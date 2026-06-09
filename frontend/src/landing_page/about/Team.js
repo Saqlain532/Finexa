@@ -8,7 +8,7 @@ const Team = () => {
            <div className='border-top'></div>
            <div className='row d-flex mt-lg-3 '>
                 <div className='col-lg-6 col-12 p-2 text-center'>
-                     <img src='media/images/image.png' alt='picture' 
+                     <img src='media/images/image.png' alt='developres-pic' 
                           className='border rounded-circle '
                           style={{width:"40%"}}
                      />

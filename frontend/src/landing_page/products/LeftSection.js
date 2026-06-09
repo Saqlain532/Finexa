@@ -14,7 +14,7 @@ const LeftSection = ({
       <div className='row shadow border rounded-4 p-lg-5 p-3'>
       <div className='col-lg-6 col-12'>
            <img src={imageURL}
-           style={{width:"70%"}}
+           style={{width:"70%"}} alt='left-section-image'
            />
       </div>
       <div className='col-lg-6 col-12'>
@@ -30,9 +30,9 @@ const LeftSection = ({
          </div>
          <div className='mt-4 d-flex gap-3 text-center'>
           <a href={playStore}
-          ><img src='media/images/googlePlayBadge.svg'/></a>
+          ><img src='media/images/googlePlayBadge.svg' alt='googleplay'/></a>
           <a href={appStore}
-          ><img src='media/images/appstoreBadge.svg'/></a>
+          ><img src='media/images/appstoreBadge.svg' alt='appstore'/></a>
          </div>
       </div>
      </div> 

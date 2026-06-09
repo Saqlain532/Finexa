@@ -10,7 +10,7 @@ const Hero = () => {
       >
         <h2 className='text-muted fw-bold'>Finexa Products</h2>
         <p2 className="text-secondary" >Sleek, modern, and intuitive trading platforms</p2>
-        <p2 className="text-secondary" >Check out our <a href='' style={{textDecoration:"none"}}
+        <p2 className="text-secondary" >Check out our <a href='#/' style={{textDecoration:"none"}}
         >investment offerings <i class="fa-solid fa-arrow-right-long"></i></a></p2>
       </div>
        
