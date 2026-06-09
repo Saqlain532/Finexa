@@ -102,7 +102,7 @@ app.use('/api/auth/orders', orderRouter);
 // });
 
 app.get('/',(req, res)=>{
-    res.status(200).json(message:"Server is running on port 8000");
+    res.status(200).json({message:"Server is running on port 8000"});
 })
 
 startEODSettlement();
