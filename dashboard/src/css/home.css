@@ -22,6 +22,7 @@
 }
 .sidebar.closed {
   min-width: 5px; 
+  left: -50px;
   width: 5px;
 }
 .menu-btn {
@@ -44,7 +45,9 @@
 
   transition: all 0.3s ease;
 }
-
+.sidebar.closed .menu-btn{
+    right: -70px;
+}
 
 
 .dashboard {
