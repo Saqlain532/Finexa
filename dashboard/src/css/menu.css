@@ -1,0 +1,151 @@
+.menu-container {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px; 
+  border: 1px solid gainsboro;
+  margin-bottom: 2rem; 
+  background-color: white;
+  margin-top: 5px;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  
+}
+
+.menus ul {
+  list-style-type: none;
+}
+
+.menus li {
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.menu, .menu.selected {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid gainsboro;
+  padding: 8px 18px;
+  transition: all .3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+.menu.selected {
+  color: rgb(245, 104, 52);
+  border-color: rgb(245, 104, 52); 
+}
+.menu:hover {
+  color: rgb(245, 104, 52);
+  transform: scale(1.04);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+.nav-links p {
+  margin: 0; 
+}
+
+.hamburger {
+  display: none;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+
+    width: 100%;
+    background: white;
+
+    flex-direction: column;
+    gap: 0;
+
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+hr {
+  border: none;
+  border-left: 1px solid gainsboro;
+  height: 25px;
+  margin: 0 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.profile .avatar {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgb(221, 139, 221);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  background: rgb(252, 229, 252);
+  margin-right: 8px;
+}
+
+.profile .username {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.profile:hover {
+  cursor: pointer;
+}
+
+.profile:hover .username {
+  cursor: pointer;
+  color: rgb(223, 91, 43);
+}
+.logo {
+  width: 30px;
+  height: 20px;
+}
+
+
+

@@ -1,0 +1,104 @@
+/* Top bar css */
+.topbar-container {
+  width: 100%;
+  min-height: 65px; /* Gives the header a solid height */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee; /* Replaced shadow with a cleaner line */
+  background: white;
+  z-index: 9;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.indices-container {
+  width: 100%;
+  padding: 0 15px;
+  min-width: 0;
+}
+
+.nifty, .sensex {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  white-space: nowrap;
+}
+
+
+
+.index {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(97, 97, 97);
+  /* white-space: nowrap; */
+}
+
+.index-points {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(223, 73, 73);
+}
+
+.percent {
+  font-size: 0.56rem;
+  font-weight: 400;
+  color: rgb(146, 146, 146);
+}
+.pill-shape {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border-radius: 9999px;
+  border: 1px solid gainsboro;
+  padding: 8px 5px;
+}
+.pill-shape p {
+  margin: 0; 
+}
+.pill-shape hr {
+  border: none;
+  border-left: 1px solid gainsboro;
+  height: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .topbar-container {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+    width: 80%;
+  }
+
+  .indices-container {
+    width: 80%;
+    border-right: none;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .pill-shape {
+    border-radius: 15px;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .pill-shape hr {
+  border: none;
+  height: 0px;
+  margin: 0;
+}
+
+  .nifty,
+  .sensex {
+    width: 100%;
+    justify-content: space-between;;
+    flex-wrap: wrap;
+  }
+
+  .index,
+  .index-points,
+  .percent {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,14 @@
+import { User } from "../model/UserModel.js";
+
+export const authController = async (req, res)=>{
+       try {
+        const user = await User.findById(req.user.id).select('-password');
+        if(!user){
+            return res.status(404).json({message:"User not found"});
+        }
+        console.log(user)
+        return res.json({user});
+       } catch (error) {
+         return res.status(500).json({message:"Server error", error:error.message})
+       }
+} 

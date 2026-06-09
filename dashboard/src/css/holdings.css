@@ -1,0 +1,100 @@
+.title {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+  margin-bottom: 2%;
+}
+
+.table {
+  border: 1px solid #ddd;
+  padding: 5% 8%;
+}
+.order-table{
+  border: 1px solid gainsboro;
+  border-radius: 2px;
+  overflow-x: auto;
+}
+
+.table .data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table .data > * {
+  margin-bottom: 5%;
+}
+
+.table .data p:first-child {
+  font-size: 1rem;
+  color: rgb(151, 151, 151);
+}
+
+.table hr {
+  border: none;
+  background: #d1d1d1;
+  height: 0.5px;
+  margin-bottom: 5%;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table tr {
+  border-top: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.order-table th {
+  text-align: right;
+  padding: 15px 10px;
+  color: rgb(145, 145, 145);
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.order-table tr th:first-child,
+.order-table tr td:first-child {
+  text-align: left;
+}
+
+.order-table tr th:nth-child(1),
+.order-table tr th:nth-child(4) {
+  border-right: 1px solid #f1f1f1;
+}
+
+.order-table tr td:nth-child(1),
+.order-table tr td:nth-child(4) {
+  border-right: 1px solid #f1f1f1;
+}
+
+.order-table tr td:first-child p {
+  background: rgb(255, 197, 197);
+  color: rgb(233, 120, 120);
+  width: 50%;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.order-table tr td:last-child {
+  font-size: 0.6rem;
+}
+
+.order-table td {
+  padding: 10px 10px;
+  text-align: right;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(73, 73, 73);
+}
+
+.order-table td.profit {
+  color: rgb(72, 194, 55);
+}
+
+.order-table td.loss {
+  color: rgb(250, 118, 78);
+}
+

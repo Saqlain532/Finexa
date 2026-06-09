@@ -1,0 +1,116 @@
+@import './css/topbar.css';
+@import './css/summary.css';
+@import './css/watchlist.css';
+@import './css/holdings.css';
+@import './css/orders.css';
+@import './css/funds.css';
+@import './css/menu.css';
+@import './css/home.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dashboard-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 0;
+}
+.content {
+  width: 100%;
+  flex: 1; 
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: 10px 5px; 
+  padding-bottom: 40px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  color: #fff;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.btn-green {
+  background: #4caf50;
+  border-radius: 9999px;
+}
+.btn-green:hover {
+  background: #7bdd7f;
+}
+
+
+.btn-blue {
+  background: red;
+  border-radius: 9999px;
+}
+
+.btn-blue:hover {
+  background: rgb(195, 112, 112);
+}
+
+.section-icon {
+  transform: scale(0.8);
+  color: rgb(66, 56, 56);
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.imp {
+  font-size: 1.5rem;
+  color: #313131;
+}
+
+.colored {
+  color: #4184f3;
+}
+
+
+.align-left {
+  text-align: left;
+}
+
+.username h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+  margin-bottom: 20px;
+}
+.index:hover {
+  cursor: pointer;
+}
+
+.settings {
+  transform: scale(0.8);
+  color: rgb(105, 105, 105);
+}
+
+.settings:hover {
+  cursor: pointer;
+}
+
+
+.custom-card{
+  border-radius: 2%;
+  border: 1px solid gainsboro;
+  box-shadow: #9b9b9b;
+  margin: 0;
+  padding: 2rem;
+}

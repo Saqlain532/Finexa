@@ -1,0 +1,117 @@
+/* --- Desktop & Base Layout --- */
+.funds {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px; 
+  flex-wrap: wrap; 
+}
+
+.funds p {
+  font-size: 0.8rem;
+  color: rgb(179, 179, 179);
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 0; 
+}
+
+.row {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  margin-top: 5%;
+  width: 100%;
+  gap: 30px; 
+}
+
+.col {
+  flex: 1; 
+}
+
+.col span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.col span p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.col h5 {
+  font-size: 1.8rem;
+  color: rgb(71, 71, 71);
+  font-weight: 300;
+}
+
+.col h5 span {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.col p {
+  font-size: 0.8rem;
+  color: rgb(153, 153, 153);
+  font-weight: 300;
+  margin-top: 2%;
+}
+
+.row .col:last-child h5 {
+  color: rgb(72, 194, 55);
+}
+
+.commodity {
+  padding: 2% 8%;
+  text-align: center;
+}
+
+.commodity p {
+  margin-bottom: 10%;
+  color: #c9c9c9;
+}
+
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.data p {
+  margin-right: 15px; 
+}
+
+/* --- Mobile Responsive Fixes --- */
+@media (max-width: 768px) {
+  .funds {
+    flex-direction: column;
+    align-items: stretch; 
+    text-align: center;
+  }
+
+  .funds p {
+    margin: 0 0 15px 0; 
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+  .funds .btn {
+    width: 90%;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column; 
+    margin-top: 20px;
+    gap: 40px; 
+  }
+
+  .col {
+    width: 100%; 
+  }
+}
