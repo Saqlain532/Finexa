@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 dotenv.config();
 import mongoose from 'mongoose';
-import { connectDB } from './config/db.js';
+import { ensureDbConnection } from './middleware/dbMiddleware.js';
 import { HoldingsModel } from './model/HoldingsModels.js';
 import { PositionsModel } from './model/PositionsModel.js';
 import { holdings, positions } from '../dashboard/src/data/data.js';
@@ -22,13 +22,14 @@ const app = express();
 app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-connectDB();
+
 
 app.use((req, res, next) => {
     console.log("Content-Type:", req.headers["content-type"]);
     next();
 });
 
+app.use(ensureDbConnection);
 //user route
 app.use('/api/auth', userRouter);
 //user auth route 
